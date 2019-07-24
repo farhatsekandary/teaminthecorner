@@ -1,0 +1,60 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 0px;
+  text-align: center;
+
+  color:black ;
+  font-family:fantasy;
+  margin:0px;
+
+  h1{
+    font-family: "Source Sans Pro,arial";
+    color: #0099ff
+  }
+
+  h6{
+    font-family: "Source Sans Pro,arial";
+    color: #0099ff
+  }
+
+  div {
+      padding: 0px;
+      margin: 0px;
+  }
+
+  .places img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  min-width: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle }
+}
+
+  .mountain img {
+  display: block;
+  width: 10%;
+  height: 10%;
+  left: 15.8%;
+  top: 30%;
+}
+  .text img {
+    display: block;
+    width: 10%;
+    height: 10%;
+    float: left;
+    left:20%;
+    top: 24.4%;
+  }
+
+  .africa {
+  display: block;
+  width: 6.5%;
+  height: 6.5%;
+  left: 15.7%;
+  top: 15.2%;
+}
