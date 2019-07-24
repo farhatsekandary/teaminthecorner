@@ -14,11 +14,6 @@ body {
     color: #0099ff
   }
 
-  h6{
-    font-family: "Source Sans Pro,arial";
-    color: #0099ff
-  }
-
   div {
       padding: 0px;
       margin: 0px;
@@ -28,33 +23,58 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-height: 50px;
-  min-width: 50px;
+  width: 50%;
+}
+
+#footer {
+  background: #F4F1DE;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: auto;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle }
+  text-decoration: none;
+  align-items: center;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
 
-  .mountain img {
-  display: block;
-  width: 10%;
-  height: 10%;
-  left: 15.8%;
-  top: 30%;
+.fa:hover {
+    opacity: 0.7;
 }
-  .text img {
-    display: block;
-    width: 10%;
-    height: 10%;
-    float: left;
-    left:20%;
-    top: 24.4%;
-  }
 
-  .africa {
-  display: block;
-  width: 6.5%;
-  height: 6.5%;
-  left: 15.7%;
-  top: 15.2%;
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
